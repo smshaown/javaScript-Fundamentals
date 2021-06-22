@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        const name = 'Shaown';
+        const age = 31;
+        const job = 'Font and Development';
+        const city = 'Mohangonj';
+
+        let html;
+
+        // Without Template String(ES5)
+        html = '<ul><li>Name: '+name+'</li><li>Name: '+age+'</li><li>Name: '+job+'</li><li>Name: '+city+'</li></ul>'
+
+        // Without Template String(ES6)
+        
+        html = `
+            <ul>
+                <li>Name: ${name}</li>
+                <li>Name: ${age}</li>   
+                <li>Name: ${job}</li>
+                <li>Name: ${city}</li>
+                <li>Name: ${2 + 2}</li>
+                <li>Name: ${hello()}</li>
+                <li>Name: ${age > 30 ? 'Over 30' : 'Under 30'}</li>
+            </ul>
+        `
+        function hello(){
+            return 'Hello World!'
+        }
+
+
+
+        // Output
+
+        document.body.innerHTML = html;
+    </script>
+</body>
+</html>
