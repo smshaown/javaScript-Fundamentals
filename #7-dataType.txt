@@ -1,0 +1,34 @@
+
+js Primitive Data Types vs. Reference Types
+    #01:-----> Primitive Data Types.
+    01. stored directly in the location the variable accesses.
+    02. Stored on the stack.
+
+        # String
+        # Number
+        # Boolean
+        # Null
+        # Undefined
+        # Symbols (ES6)----.
+
+
+
+
+ #02:-----> Reference Types
+    01. Accesses by Reference
+    02. Objects that are stored on the heap
+    03. A Pointer to a location in memory.
+
+        # Array 
+        # Object Literals
+        # Functions
+        # Dates
+        # Anything Else---.
+
+
+#03:------> Dynamically Typed Language
+    #01. Types are associated with values not variables.
+    #02. The same variable can hold multiple Types.
+    #03. We do not need to specify types.
+    #04. Most other language are statically typed(Java, C#, C++).
+    #05. There are supersets of JS ans addons to allow static typing(TypeScript, Flow)
